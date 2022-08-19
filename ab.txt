@@ -1,0 +1,1 @@
+wget -O - https://get.gbear.scratch.eticloud.io/bootstrap/dev/get.sh | TOKEN=vXtdRRCo4xE4A3 sh
