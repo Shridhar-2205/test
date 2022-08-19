@@ -1,1 +1,6 @@
 wget -O - https://get.gbear.scratch.eticloud.io/bootstrap/dev/get.sh | TOKEN=vXtdRRCo4xE4A3 sh
+
+
+sudo sed -i -e 's/us.archive.ubuntu.com/archive.ubuntu.com/g' /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install curl
